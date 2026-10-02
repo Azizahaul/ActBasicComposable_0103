@@ -72,3 +72,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(20.dp))
+
+            // Teks Label Nama
+            Text(
+                text = "Nama",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFF4A7B9)
+            )

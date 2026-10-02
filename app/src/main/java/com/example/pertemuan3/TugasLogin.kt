@@ -25,3 +25,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize()
+    )

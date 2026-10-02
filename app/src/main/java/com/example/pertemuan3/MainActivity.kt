@@ -17,7 +17,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(
+                    // TataletakBoxColumnRow(
+                    //     modifier = Modifier.padding(innerPadding)
+                    // )
+                    TugasLogin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

@@ -45,18 +45,19 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top
         ){
-            // Judul Login
+            // Judul Login (Warna Emas Bintang)
             Text(
                 text = "Login",
-                fontSize = 36.sp,
+                fontSize = 38.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Blue
+                fontFamily = FontFamily.Serif,
+                color = Color(0xFFF3C65F)
             )
-            // Subjudul
+            // Subjudul (Warna Krem Hijau Muda)
             Text(
                 text = "Ini adalah halaman login,",
                 fontSize = 16.sp,
-                color = Color.White
+                color = Color(0xFFD8E8C8)
             )
 
             Spacer(modifier = Modifier.height(25.dp))

@@ -1,7 +1,5 @@
 package com.example.pertemuan3
 
-
-
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -21,6 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -29,14 +28,15 @@ import androidx.compose.ui.unit.sp
 fun TugasLogin(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
-    ){
-        // 1. Gambar Background Full Layar
+    ) {
+        // 1. Gambar Background Full Layar (Kain Hijau Bintang Emas)
         Image(
             painter = painterResource(id = R.drawable.bg_login),
             contentDescription = "Background Login",
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+
         // 2. Susunan Komponen Secara Vertikal di Tengah
         Column(
             modifier = Modifier
@@ -44,7 +44,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 .padding(top = 40.dp, start = 16.dp, end = 16.dp, bottom = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top
-        ){
+        ) {
             // Judul Login (Warna Emas Bintang)
             Text(
                 text = "Login",
@@ -53,6 +53,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontFamily = FontFamily.Serif,
                 color = Color(0xFFF3C65F)
             )
+
             // Subjudul (Warna Krem Hijau Muda)
             Text(
                 text = "Ini adalah halaman login,",
@@ -74,7 +75,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(20.dp))
 
-            // Teks Label Nama
+            // Teks Label Nama (Warna Pink Pita)
             Text(
                 text = "Nama",
                 fontSize = 18.sp,
@@ -82,7 +83,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color(0xFFF4A7B9)
             )
 
-            // Teks Nama Mahasiswa
+            // Teks Nama Mahasiswa (Warna Emas)
             Text(
                 text = "Azizah Aulia R Hamid",
                 fontSize = 22.sp,
@@ -90,9 +91,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color(0xFFF3C65F)
             )
 
-            // Teks NIM (Ganti dengan NIM kamu)
+            // Teks NIM (Warna Krem Terang)
             Text(
-                text = "20240140103",
+                text = "20000140001",
                 fontSize = 30.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFFD8E8C8)
@@ -100,7 +101,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Gambar Lingkaran di Bagian Bawah
+            // Gambar Lingkaran di Bagian Bawah (Foto Billie Eilish)
             Box(
                 modifier = Modifier
                     .size(280.dp)
@@ -115,3 +116,6 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     modifier = Modifier.fillMaxSize()
                 )
             }
+        }
+    }
+}

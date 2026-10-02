@@ -60,3 +60,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(25.dp))
+
+            // Gambar Logo Billie Eilish (Dibuat Bulat)
+            Image(
+                painter = painterResource(id = R.drawable.logo_billie),
+                contentDescription = "Logo Billie Eilish",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(150.dp)
+                    .clip(CircleShape)
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))

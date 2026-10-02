@@ -80,3 +80,21 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFFF4A7B9)
             )
+
+            // Teks Nama Mahasiswa
+            Text(
+                text = "Azizah Aulia R Hamid",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFF3C65F)
+            )
+
+            // Teks NIM (Ganti dengan NIM kamu)
+            Text(
+                text = "20240140103",
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFD8E8C8)
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))

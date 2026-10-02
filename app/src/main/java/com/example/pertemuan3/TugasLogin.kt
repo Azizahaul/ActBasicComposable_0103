@@ -93,7 +93,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             // Teks NIM (Warna Krem Terang)
             Text(
-                text = "20000140001",
+                text = "20240140103",
                 fontSize = 30.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFFD8E8C8)
@@ -113,6 +113,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     painter = painterResource(id = R.drawable.foto_billie),
                     contentDescription = "Foto Billie Eilish",
                     contentScale = ContentScale.Crop,
+                    alignment = Alignment.BottomCenter, // Menggeser fokus gambar agar wajah pas di tengah
                     modifier = Modifier.fillMaxSize()
                 )
             }

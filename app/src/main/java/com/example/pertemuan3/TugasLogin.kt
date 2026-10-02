@@ -44,4 +44,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 .padding(top = 40.dp, start = 16.dp, end = 16.dp, bottom = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top
-        )
+        ){
+            // Judul Login
+            Text(
+                text = "Login",
+                fontSize = 36.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )

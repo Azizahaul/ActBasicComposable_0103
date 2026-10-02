@@ -29,4 +29,11 @@ import androidx.compose.ui.unit.sp
 fun TugasLogin(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
-    )
+    ){
+        // 1. Gambar Background Full Layar
+        Image(
+            painter = painterResource(id = R.drawable.bg_login),
+            contentDescription = "Background Login",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )

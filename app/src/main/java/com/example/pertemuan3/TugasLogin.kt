@@ -37,3 +37,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+        // 2. Susunan Komponen Secara Vertikal di Tengah
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp, start = 16.dp, end = 16.dp, bottom = 16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        )
